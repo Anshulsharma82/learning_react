@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c977947d.css",
-    "main.js": "/static/js/main.8123882f.js",
-    "static/js/453.13557df5.chunk.js": "/static/js/453.13557df5.chunk.js",
-    "static/media/cardImage.png": "/static/media/cardImage.a8bbb63c57cc4e8b92aa.png",
-    "index.html": "/index.html",
-    "main.c977947d.css.map": "/static/css/main.c977947d.css.map",
-    "main.8123882f.js.map": "/static/js/main.8123882f.js.map",
-    "453.13557df5.chunk.js.map": "/static/js/453.13557df5.chunk.js.map"
+    "main.css": "/learning_react/static/css/main.c977947d.css",
+    "main.js": "/learning_react/static/js/main.f8004f13.js",
+    "static/js/453.13557df5.chunk.js": "/learning_react/static/js/453.13557df5.chunk.js",
+    "static/media/cardImage.png": "/learning_react/static/media/cardImage.a8bbb63c57cc4e8b92aa.png",
+    "index.html": "/learning_react/index.html",
+    "main.c977947d.css.map": "/learning_react/static/css/main.c977947d.css.map",
+    "main.f8004f13.js.map": "/learning_react/static/js/main.f8004f13.js.map",
+    "453.13557df5.chunk.js.map": "/learning_react/static/js/453.13557df5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c977947d.css",
-    "static/js/main.8123882f.js"
+    "static/js/main.f8004f13.js"
   ]
 }
