@@ -14,20 +14,20 @@ export default function Navbar(props) {
   return (
     <nav className={`navbar navbar-expand-lg bg-${navBarBackgrounColor(props.mode)}`} >
       <div className="container-fluid" >
-        <Link className="navbar-brand" to="/" style={textColor(props.mode)}>{props?.title}</Link>
+        <Link className="navbar-brand" to="/learning_react" style={textColor(props.mode)}>{props?.title}</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="https://reactjs.orgnavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/" style={textColor(props.mode)}>Home</Link>
+              <Link className="nav-link active" aria-current="page" to="/learning_react" style={textColor(props.mode)}>Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about" style={textColor(props.mode)}>{props.aboutText}</Link>
+              <Link className="nav-link" to="/learning_react/about" style={textColor(props.mode)}>{props.aboutText}</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-disabled="true" href='/contact' style={textColor(props.mode)}>{props.contact}</Link>
+              <Link className="nav-link" aria-disabled="true" href='/learning_react/contact' style={textColor(props.mode)}>{props.contact}</Link>
             </li>
           </ul>
           {/* Search Button*/}

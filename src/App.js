@@ -97,10 +97,9 @@ function App() {
       <Router>
         <Navbar title='Text Utils' aboutText="About Text" contact="Contact Us" mode={mode} toggleMode={toggleMode} greenMode={greenMode} />
         <Alert alert={alert} mode={mode} />
-        {/* <Navbar /> */}
         <Routes>
-          <Route path='/about' element={<About />} />
-          <Route path='/' element={< Textform mode={mode} toggleMode={toggleMode} showAlert={showAlert} />} />
+          <Route exact path='/learning_react/about' element={<About />} />
+          <Route exact path='/learning_react' element={< Textform mode={mode} toggleMode={toggleMode} showAlert={showAlert} />} />
         </Routes>
       </Router>
     </>
